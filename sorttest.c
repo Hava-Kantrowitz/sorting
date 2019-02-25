@@ -46,7 +46,8 @@ int main (int argc, const char* argv[]) {
   }
 
   // Now print, sort, and print the array, and time how long the sorting took.
-  timesort(nums, num_nums);
+  int sortingFun = 1;
+  timesort(nums, num_nums, sortingFun);
 
   return 0; // Indicate success!
 }
